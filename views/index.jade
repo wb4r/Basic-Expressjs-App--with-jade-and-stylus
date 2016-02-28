@@ -1,0 +1,11 @@
+extends layout
+
+block head
+  meta(charset="utf-8")
+
+block content
+  h1= title
+  p 2 + 2 = #{2 + 2}
+  p
+    | Number of nav links:
+    = links.length
